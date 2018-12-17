@@ -7,3 +7,13 @@ def square_array(array)
 end
 new_num
 end
+
+def square_array(array)
+  # your code here
+  
+  array.collect do |num|
+   num * num
+
+end
+array
+end
